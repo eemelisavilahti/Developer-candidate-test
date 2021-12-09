@@ -121,34 +121,7 @@ function deletePerson(Company_id) {
 
 
 function insertRowIntoTable(data) {
-   /* function insertRowIntoTable(data) {
-        const table = document.querySelector('table tbody');
-        const isTableData = table.querySelector('.no-data');
-    
-        let tableHtml = "<tr>";
-    
-        for (var key in data){
-            if(data.hasOwnProperty(key)){
-                if(key === 'Comapany_id'){
-                    data[key] = new Company_id(data[key]).
-                    toLocaleString();
-                }
-                tableHtml += `<td>${data[key]}</td>`;
-            }
-        }
-    
-        tableHtml += `<td><button class="edit-person-button" data-id=${Company_id}>Edit</button></td>`;
-        tableHtml += `<td><button class="delete-person-button" data-id=${Company_id}>Delete</button></td>`;
-    
-    
-        if (isTableData){
-            table.innerHTML = tableHtml;
-        }
-        else {
-            const newRow = table.insertRow();
-            newRow.innerHTML = tableHtml;
-        }
-    }*/
+
 }
 
 
